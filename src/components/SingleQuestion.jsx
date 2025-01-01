@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
 const SingleQuestion = ({ id, title, info, activeId, toggleQuestion }) => {
   const isActive = id === activeId;
-  console.log(isActive)
-  const [showInfo, setShowInfo] = useState(false);
+  console.log(isActive);
   return (
     <div>
       <h3>

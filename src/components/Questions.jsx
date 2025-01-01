@@ -4,16 +4,23 @@ import SingleQuestion from "./SingleQuestion";
 const Questions = () => {
   const [questions, setQuestions] = useState(data);
   const [activeId, setActiveId] = useState(null);
-  const toggleQuestion = (id) => { 
-    const newActiveId= activeId === id ? null : id
-    setActiveId(newActiveId)
-    console.log(id) }
+  const toggleQuestion = (id) => {
+    const newActiveId = activeId === id ? null : id;
+    setActiveId(newActiveId);
+    console.log(id);
+  };
   return (
     <div>
       Questions
       {questions.map((question) => {
-        return <SingleQuestion key={question.id} {...question}
-        activeId={activeId} toggleQuestion={toggleQuestion}/>;
+        return (
+          <SingleQuestion
+            key={question.id}
+            {...question}
+            activeId={activeId}
+            toggleQuestion={toggleQuestion}
+          />
+        );
       })}
     </div>
   );
