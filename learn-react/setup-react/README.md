@@ -48,4 +48,4 @@ npm i react-router-dom
 ```
 
 [Back to Home](../../)
-[extension](../extensions/)
+[1. extension](../extensions/)

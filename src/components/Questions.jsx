@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import data from "../assets/data.json";
 import SingleQuestion from "./SingleQuestion";
 const Questions = () => {
+  // initialize all data in questions
   const [questions, setQuestions] = useState(data);
+  //
   const [activeId, setActiveId] = useState(null);
   const toggleQuestion = (id) => {
     const newActiveId = activeId === id ? null : id;
