@@ -14,8 +14,6 @@ const SingleQuestion = ({ id, title, info, activeId, toggleQuestion }) => {
       </h3>
       {isActive && <p>{info}</p>}
     </div>
-    // AKfycbzV4Yb7dkEpqDErz85M4ww-3BLhWeDcXH4vzs2JROWIVVjpxA8EuPTLJycCOWbd0NPt
-    // https://script.google.com/macros/s/AKfycbzV4Yb7dkEpqDErz85M4ww-3BLhWeDcXH4vzs2JROWIVVjpxA8EuPTLJycCOWbd0NPt/exec
   );
 };
 
