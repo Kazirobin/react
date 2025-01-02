@@ -65,4 +65,5 @@ Visual Studio Code (VS Code) is one of the most popular code editors, known for 
 By integrating these extensions into your workflow, you can significantly enhance your coding efficiency and overall experience in VS Code. Try them out and discover how they can simplify your development process!
 
 [Back to Home](../../)
+
 [2. next](../setup-react/)
