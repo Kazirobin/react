@@ -47,4 +47,4 @@ npm i react-icons
 npm i react-router-dom
 ```
 
-[back to home](../../)
+[Back to Home](../../)
