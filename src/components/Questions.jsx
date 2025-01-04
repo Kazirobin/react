@@ -16,12 +16,7 @@ const Questions = () => {
       Questions
       {questions.map((question) => {
         return (
-          <SingleQuestion
-            key={question.id}
-            {...question}
-            activeId={activeId}
-            toggleQuestion={toggleQuestion}
-          />
+          <SingleQuestion key={question.id} {...question} activeId={activeId} toggleQuestion={toggleQuestion}/>
         );
       })}
     </div>
