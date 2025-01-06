@@ -24,6 +24,7 @@ const BookList = () => {
         </Book>
         <Book data={data[1]}/>
         <Book data={data[2]}/>
+        
     </div>
   )
 }

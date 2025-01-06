@@ -66,4 +66,14 @@ By integrating these extensions into your workflow, you can significantly enhanc
 
 [Back to Home](../../)
 
+1. extensions
+
 [2. next](../2-setup-react/)
+
+[3. children-props](../3-children-props/)
+
+[4. condition-to-show](../4-condition-to-show/)
+
+[5. data.js](../5-data.js/)
+
+[6. form](../6-form/)

@@ -1,0 +1,25 @@
+.logic-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .content {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+    max-height: 0; /* Use max-height instead of height */
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .content.visible {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 100%; /* Set a max value large enough for the content */
+  }
+  
+  .content.hidden {
+    opacity: 0;
+    transform: translateY(-20px);
+    max-height: 0; /* Collapse the element smoothly */
+  }
+  

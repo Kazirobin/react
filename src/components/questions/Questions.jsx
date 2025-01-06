@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import data from "../assets/data.json";
+
 import SingleQuestion from "./SingleQuestion";
+import { questionData } from "../../assets/data";
 const Questions = () => {
   // initialize all data in questions
-  const [questions, setQuestions] = useState(data);
+  const [questions, setQuestions] = useState(questionData);
   //
   const [activeId, setActiveId] = useState(null);
   const toggleQuestion = (id) => {

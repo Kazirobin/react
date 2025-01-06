@@ -1,8 +1,10 @@
 import './App.css'
 import BookList from './components/BookList'
 import Books from './components/data-crud/Books'
+import Form from './components/Form'
+import Logic from './components/logic/Logic'
+import Questions from './components/questions/Questions'
 
-import Questions from './components/Questions'
 
 function App() {
 
@@ -10,7 +12,9 @@ function App() {
     <>
       {/* <Questions/> */}
       {/* <BookList/> */}
-      <Books/>
+      {/* <Books/>  */}
+      <Logic/>
+      <Form/>
     </>
   )
 }
