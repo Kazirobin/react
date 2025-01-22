@@ -62,6 +62,9 @@ Visual Studio Code (VS Code) is one of the most popular code editors, known for 
 20. **cdnjs (jakewilson.vscode-cdnjs)**
     Quickly search and include libraries from cdnjs.
 
+21. **Intellisense Bootstrap 5 (pirulug.intellisense-bootstrap-5-by-pirulug)**
+    Enhance Bootstrap development with CSS class autocompletion for efficient coding...
+
 By integrating these extensions into your workflow, you can significantly enhance your coding efficiency and overall experience in VS Code. Try them out and discover how they can simplify your development process!
 
 [Back to Home](../../)
