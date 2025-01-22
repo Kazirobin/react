@@ -65,6 +65,9 @@ Visual Studio Code (VS Code) is one of the most popular code editors, known for 
 21. **Intellisense Bootstrap 5 (pirulug.intellisense-bootstrap-5-by-pirulug)**
     Enhance Bootstrap development with CSS class autocompletion for efficient coding...
 
+22. **Font Awesome Auto-complete & Preview (janne252.fontawesome-autocomplete)**
+    Autocomplete & preview Font Awesome icons in any language.
+
 By integrating these extensions into your workflow, you can significantly enhance your coding efficiency and overall experience in VS Code. Try them out and discover how they can simplify your development process!
 
 [Back to Home](../../)
