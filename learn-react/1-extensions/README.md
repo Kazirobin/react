@@ -67,6 +67,15 @@ Visual Studio Code (VS Code) is one of the most popular code editors, known for 
 
 22. **Font Awesome Auto-complete & Preview (janne252.fontawesome-autocomplete)**
     Autocomplete & preview Font Awesome icons in any language.
+    
+23. **vscode-pdf (tomoki1207.pdf)**
+    Display pdf file in VSCode.
+    
+24. **Code Runner (formulahendry.code-runner)**
+    Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript
+    
+22. ****
+   
 
 By integrating these extensions into your workflow, you can significantly enhance your coding efficiency and overall experience in VS Code. Try them out and discover how they can simplify your development process!
 
